@@ -43,7 +43,6 @@ Run scripts in order. Each step saves outputs that the next step reads.
 ---
 
 ## Setup
-
 ```bash
 pip install torch torchvision open_clip_torch scipy matplotlib tqdm
 ```
@@ -53,7 +52,6 @@ pip install torch torchvision open_clip_torch scipy matplotlib tqdm
 ---
 
 ## Data
-
 Uses the **THINGS-EEG2** dataset (Gifford et al., 2022).
 Download from: https://osf.io/3jk45/
 
@@ -68,8 +66,6 @@ Place THINGS test images (one per concept) in:
 ```
 test_images/<concept_name>/<image>.jpg
 ```
-
-**Do not commit EEG data or images to the repository.**
 
 ---
 
@@ -92,7 +88,6 @@ test_images/<concept_name>/<image>.jpg
 ---
 
 ## Reference
-
 Gifford, A.T., Cichy, R.M. et al. (2022). *A large and rich EEG dataset for modeling human visual object recognition.* NeuroImage. https://doi.org/10.1016/j.neuroimage.2022.119754
 
 ---
