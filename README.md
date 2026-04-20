@@ -92,5 +92,3 @@ Gifford, A.T., Cichy, R.M. et al. (2022). *A large and rich EEG dataset for mode
 
 ---
 
-## Author
-Armanjot Kaur Randhawa 
