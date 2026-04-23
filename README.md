@@ -4,7 +4,7 @@ Comparing how well a vision-only model (ResNet50) and a vision-language model (C
 
 **ResNet50 Layer 3 peaks at 194ms (r=0.233). CLIP ViT-B/32 peaks later at 386ms (r=0.145).**
 
-![Main result](figures/figure5_with_noise_ceiling.png)
+![Main result](fig/figure5_with_noise_ceiling.png)
 
 ---
 
@@ -70,7 +70,6 @@ test_images/<concept_name>/<image>.jpg
 ---
 
 ## Repo structure
-
 ```
 ├── step1_extract_activations.py
 ├── step2_compute_rdms.py
@@ -79,7 +78,7 @@ test_images/<concept_name>/<image>.jpg
 ├── step5_clip_rsa.py
 ├── step6_noise_ceiling.py
 ├── step7_significance.py
-├── figures/ ← generated figures saved here
+├── fig/ ← generated figures saved here
 ├── activations/ ← generated, not committed
 ├── rdms/ ← generated, not committed
 └── README.md
