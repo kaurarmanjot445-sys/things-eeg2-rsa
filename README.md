@@ -2,7 +2,7 @@
 
 Comparing how well a vision-only model (ResNet50) and a vision-language model (CLIP ViT-B/32) predict human brain responses over time, using Representational Similarity Analysis (RSA) on EEG data from the THINGS-EEG2 dataset.
 
-**ResNet50 Layer 3 peaks at 194ms (r=0.233). CLIP ViT-B/32 peaks later at 386ms (r=0.145).**
+**ResNet50 Layer 2 peaks at 194ms (r=0.233). CLIP ViT-B/32 peaks later at 386ms (r=0.145).**
 
 ![Main result](fig/figure5_with_noise_ceiling.png)
 
@@ -20,7 +20,7 @@ Comparing how well a vision-only model (ResNet50) and a vision-language model (C
 
 ## Key result
 
-ResNet50 Layer 3 aligns most strongly with EEG at ~194ms, consistent with the window of peak object-selective activity in ventral visual cortex. CLIP aligns later at ~386ms, suggesting vision-language representations correspond to a later stage of visual processing. Results validated against noise ceiling computed across 3 participants (leave-one-out lower bound).
+ResNet50 Layer 2 aligns most strongly with EEG at ~194ms, consistent with the window of peak object-selective activity in ventral visual cortex. CLIP aligns later at ~386ms, suggesting vision-language representations correspond to a later stage of visual processing. Results validated against noise ceiling computed across 3 participants (leave-one-out lower bound).
 
 *Methodology confirmed by the THINGS-EEG2 dataset authors (Gifford et al.).*
 
