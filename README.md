@@ -32,7 +32,7 @@ ResNet50 Layer 2 aligns most strongly with EEG at ~194ms, consistent with the wi
 |------|--------|--------------|
 | 1 | `step1_extract_activations.py` | Extract ResNet50 layer activations for all images |
 | 2 | `step2_compute_rdms.py` | Compute RDMs from activations + EEG |
-| 3 | `step3_rsa_comparison.py` | Static RSA — which layer best predicts brain? |
+| 3 | `step3_rsa_comparison.py` | Static RSA - which layer best predicts brain? |
 | 4 | `step4_time_resolved_rsa.py` | Time-resolved RSA across all ResNet50 layers |
 | 5 | `step5_clip_rsa.py` | Extract CLIP features + compare to ResNet50 |
 | 6 | `step6_noise_ceiling.py` | Add noise ceiling to final figure |
@@ -78,9 +78,9 @@ test_images/<concept_name>/<image>.jpg
 ├── step5_clip_rsa.py
 ├── step6_noise_ceiling.py
 ├── step7_significance.py
-├── fig/ ← generated figures saved here
+├── fig/ <- generated figures saved here
 ├── activations/ ← generated, not committed
-├── rdms/ ← generated, not committed
+├── rdms/ <- generated, not committed
 └── README.md
 ```
 
