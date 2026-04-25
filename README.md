@@ -2,7 +2,7 @@
 
 Comparing how well a vision-only model (ResNet50) and a vision-language model (CLIP ViT-B/32) predict human brain responses over time, using Representational Similarity Analysis (RSA) on EEG data from the THINGS-EEG2 dataset.
 
-**ResNet50 Layer 2 peaks at 194ms (r=0.233). CLIP ViT-B/32 peaks later at 386ms (r=0.145).**
+**ResNet50 Layer 2 peaks at 194ms (r=0.150). CLIP ViT-B/32 peaks later at 386ms (r=0.145).**
 
 ![Main result](fig/figure5_with_noise_ceiling.png)
 
